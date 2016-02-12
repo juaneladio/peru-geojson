@@ -13,8 +13,22 @@ Información disponible por archivo
 * peru_departamental_simple.geojson
 
 ```json
-{"type":"Feature","properties":
-{
+{"type":"Feature","properties":{
+"NOMBDEP":"AMAZONAS",
+"COUNT":84,
+"FIRST_IDDP":"01",
+"HECTARES":3930646.567
+},
+"geometry":
+{"type":"Polygon","coordinates":[[]}}
+```
+
+`NOMDEP` es el nombre del departamento, `FIRST_IDDP` es su código de Ubigeo.
+
+* peru_provincial_simple.geojson
+
+```json
+{"type":"Feature","properties":{
 "COUNT":9,
 "FIRST_IDPR":"0301",
 "NOMBPROV":"ABANCAY",
@@ -30,7 +44,9 @@ Información disponible por archivo
 }
 ```
 
-* peru_provincial_simple.geojson
+`NOMPROV` es el nombre del departamento, `FIRST_IDPR` es su código de Ubigeo.
+
+* peru_distrital_simple.geojson
 
 ```json
 {"type":"Feature","properties":{
@@ -55,24 +71,7 @@ Información disponible por archivo
 }
 ```
 
-* peru_distrital_simple.geojson
-
-```json
-{"type":"Feature","properties":{
-"COUNT":9,
-"FIRST_IDPR":"0301",
-"NOMBPROV":"ABANCAY",
-"FIRST_NOMB":"APURIMAC",
-"LAST_DCTO":"LEY",
-"LAST_LEY":"S/N",
-"FIRST_FECH":"28/12/1961",
-"LAST_FECHA":"21/11/1893",
-"MIN_SHAPE_":345827.33624,
-"ha":345827.34
-},
-"geometry":{"type":"Polygon","coordinates":[[]]}
-}
-```
+`NOMBDIST` es el nombre del departamento, `IDDIST` es su código de Ubigeo.
 
 Fuente
 ------
