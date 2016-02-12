@@ -20,7 +20,7 @@ Información disponible por archivo
 "HECTARES":3930646.567
 },
 "geometry":
-{"type":"Polygon","coordinates":[[]}}
+{"type":"Polygon","coordinates":[[]]}}
 ```
 
 `NOMDEP` es el nombre del departamento, `FIRST_IDDP` es su código de Ubigeo.
@@ -80,3 +80,7 @@ Información disponible en formato ShapeFile en la web de [Geoservidor - MINAM](
 * Límite Departamental (Fuente: INEI-2007)
 * Límite Provincial (Fuente: INEI-2007)
 * Límite Distrital (Fuente: INEI-2007)
+
+Método de transformación de Sharpfiles a GeoJSON
+------------------------------------------------
+Próximamente, no fue una transformación directa.
