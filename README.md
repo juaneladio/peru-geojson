@@ -73,14 +73,34 @@ Información disponible por archivo
 
 `NOMBDIST` es el nombre del departamento, `IDDIST` es su código de Ubigeo.
 
+* peru_provincias_captial_provincia.geojson
+
+```json
+{
+	"type": "Feature",
+	"properties": {
+		"FID": 0,
+		"CAPITAL": "CABANA",
+		"DEPARTAM": "ANCASH",
+		"PROVINCIA": "PALLASCA",
+		"DISTRITO": "CABANA",
+		"CLASIF02": "URBANO",
+		"NOMCAT02": "PUEBLO"
+	},
+	"geometry": { "type": "Point", "coordinates": [] }
+}
+```
+
 Fuente
 ------
-Información disponible en formato ShapeFile en la web de [Geoservidor - MINAM](http://geoservidor.minam.gob.pe/geoservidor/download.aspx)
+Información disponible en formato ShapeFile en la web de [Geoservidor - MINAM](http://geoservidor.minam.gob.pe/geoservidor/download.aspx) y
+en [GEOIDEP](http://www.geoidep.gob.pe/)
 
 * Límite Departamental (Fuente: INEI-2007)
 * Límite Provincial (Fuente: INEI-2007)
 * Límite Distrital (Fuente: INEI-2007)
+* Capitales de Provincia (Fuente: IDEP-2016)
 
-Método de transformación de Sharpfiles a GeoJSON
+Método de transformación de Shapefiles a GeoJSON
 ------------------------------------------------
 Próximamente, no fue una transformación directa.
